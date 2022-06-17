@@ -1,0 +1,2 @@
+# Practice----CRUD-operation-using-DJANGO
+Python's Django framework was used for CRUD operations. Django is a high-level Python web framework that encourages quick development and clean, practical design. Employee registration, viewing a registered employee's record, changing an employee's details, and removing a registered employee's details are all done. SQL is used for making queries, and pgadmin as database server.
