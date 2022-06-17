@@ -1,0 +1,30 @@
+step 1: environment setup is created is created into a django_crud_operation
+step 2: employee project folder is created using "django-admin startproject employee"
+step 3: new app employee_register is created using command "python manage.py startapp employee_register"
+step 4: new app called employee_register is configure in a main rute foldel setting.py.
+step 5: Database is created called "Employeedb" in a pgadmin database management system.
+step 6: database configuration is done in a main folder file "setting.py"
+step 7 : after database configuration, migrate is done using command "python manage.py migrate".
+step:8 : Creating models for app developemnet inside employee_register/models.py
+step 9: After creating a models, migration is done using the command "Python manage.py makemigration employee_register".
+step 10: After performing migrations, it will create "0001_initial.py" migration modification file with respect to its models. 
+	now lets execute command "python manage.py sqlmigrate employee_register 0001" inorder to applied those modifications.
+step 11: now execute sql script using command " python manage.py migrate"
+step 12: create view function in a view.py file
+step 13:coniguring routing for the application in a main root folder urls.py and create another
+	 urls.py file in the application folder and configure the routing.
+step 14 : Create a folder (employee_register>template>employee_register).
+step 15 : create html file 
+step 16 : render html file through views.py
+step 17: design base.html using bootstrap and javascript
+step 18:create forms.py and design form model class 
+step 19 : creatiing post method and csrf token in employee_form.html 
+step:20 : creating crispy form using command pip install django-crispy-forms
+step 21: add crispy_form in the setting.py
+step 22: design (labeling,positioning ) form
+step 23 : added submit button
+step 24 : developing get and post method for insert operation
+
+step 25 : developing get request to retrive and displyaing all records.
+step 26 : developing get and post method for update operation
+step 26 : developing update operation
